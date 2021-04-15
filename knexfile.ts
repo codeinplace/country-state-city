@@ -18,12 +18,10 @@ const config: Knex.Config = {
     migrations: {
         directory: root('migrations'),
         extension: 'ts',
-        stub: root('migration.stub.ts'),
     },
     seeds: {
         directory: root('seeds'),
         extension: 'ts',
-        stub: root('seed.stub.ts'),
         timestampFilenamePrefix: true,
     },
 };

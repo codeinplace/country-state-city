@@ -4,6 +4,9 @@
   "repository": "https://github.com/codeinplace/country-state-city.git",
   "author": "CodeInPlace <admin@codeinplace.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "knex migrate:latest && knex seed:run"
+  },
   "devDependencies": {
     "@types/node": "^14.14.39",
     "ts-node": "^9.1.1",
