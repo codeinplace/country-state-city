@@ -1,0 +1,15 @@
+version: '3.2'
+
+services:
+
+  db:
+    image: mariadb
+    container_name: mariadb_codeinplace
+    environment:
+      TZ: America/Sao_Paulo
+      MYSQL_ROOT_PASSWORD: secret
+      MYSQL_DATABASE: codeinplace
+    ports:
+      - 3306:3306
+    volumes:
+      - ./data:/var/lib/mysql

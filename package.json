@@ -1,0 +1,17 @@
+{
+  "name": "country-state-city",
+  "version": "1.0.0",
+  "repository": "https://github.com/codeinplace/country-state-city.git",
+  "author": "CodeInPlace <admin@codeinplace.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^14.14.39",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "knex": "^0.95.4",
+    "mysql2": "^2.2.5"
+  }
+}
